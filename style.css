@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f7f9fc;
+    color: #111;
+    line-height: 1.6;
+}
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+}
+  
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #2951f5;
+}
+  
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+  
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.header-right input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+  
+.btn-conta {
+    background: #0b1f66;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+}
+  
+.global {
+    margin-left: 10px;
+}
+  
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+  
+.hero-text {
+    max-width: 45%;
+}
+  
+.awards-btn {
+    padding: 6px 10px;
+    background: #edf0fc;
+    color: #0b1f66;
+    border: 1px solid #dbe1f2;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+  
+.hero-text h1 {
+    font-family: "Mona Sans", sans-serif;
+    font-size: 38px;
+    color: #101828;
+    margin-bottom: 20px;
+}
+  
+.hero-text p {
+    font-family: "Mona sans", sans-serif;
+    font-size: 16px;
+    color: #667085;
+    margin-bottom: 20px;
+}
+  
+.tags span {
+    display: inline-block;
+    background: #f1f3f5;
+    padding: 6px 10px;
+    border-radius: 20px;
+    margin: 5px 10px 5px 0;
+    font-size: 14px;
+}
+  
+.criar-conta {
+    background: #2951f5;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+  
+.no-cc {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+  
+.hero-visual {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: start;
+}
+  
+.hero-visual img {
+    width: 100%;
+    border-radius: 16px;
+}
+  
+.card {
+    display: flex;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.199);
+    font-size: 14px;
+}
+  
+.entregue {
+    color: green;
+    font-weight: bold;
+}
+  
+.enviado {
+    color: blue;
+    font-weight: bold;
+}
+  
+.chart {
+    grid-column: span 2;
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+}
+  
+.chart .bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    height: 100px;
+    margin: 10px 0;
+}
+  
+.bar {
+    width: 10px;
+    background: #2951f5;
+    border-radius: 4px;
+}
